@@ -2,35 +2,24 @@
 Folder Organization
 ```
 |-data
-    |-train
+    |-isic2018
         |-images
         |-labels
-            |-task1
-    |-val
+    |-ham10000
+        |-images
+        |-labels 
+|-processed_data
+    |-isic2018
         |-images
         |-labels
-            |-task1    
-    |-test
+    |-ham10000
         |-images
         |-labels
-            |-task1
-|-proceeded_data
-    |-train
-        |-Image
-        |-Label
-    |-val
-        |-Image
-        |-Label  
-    |-test
-        |-Image
-        |-Label
 |-Configs
 |-Datasets
-|-Evaluation
 |-Models
 |-Utils
 |-README.md
 |-download.ipynb
-|-fixmatch.py
-|-train_sup.py
+|-*.py
 ```
