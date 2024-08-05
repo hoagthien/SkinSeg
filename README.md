@@ -1,0 +1,36 @@
+# Run 3 first cells in download.ipynb
+Folder Organization
+```
+|-data
+    |-train
+        |-images
+        |-labels
+            |-task1
+    |-val
+        |-images
+        |-labels
+            |-task1    
+    |-test
+        |-images
+        |-labels
+            |-task1
+|-proceeded_data
+    |-train
+        |-Image
+        |-Label
+    |-val
+        |-Image
+        |-Label  
+    |-test
+        |-Image
+        |-Label
+|-Configs
+|-Datasets
+|-Evaluation
+|-Models
+|-Utils
+|-README.md
+|-download.ipynb
+|-fixmatch.py
+|-train_sup.py
+```
